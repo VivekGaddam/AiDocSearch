@@ -1,0 +1,85 @@
+/* File: src/components/DocumentCard.css */
+.document-card {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    padding: 16px;
+    margin-bottom: 16px;
+    transition: var(--transition);
+  }
+  
+  .document-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .document-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: rgba(74, 108, 247, 0.1);
+    color: var(--primary-color);
+    margin-right: 16px;
+    font-size: 1.5rem;
+  }
+  
+  .document-info {
+    flex: 1;
+  }
+  
+  .document-name {
+    margin: 0 0 4px 0;
+    font-size: 1.125rem;
+  }
+  
+  .document-meta {
+    display: flex;
+    align-items: center;
+    color: var(--secondary-color);
+    font-size: 0.875rem;
+  }
+  
+  .document-size {
+    margin-left: 16px;
+    padding-left: 16px;
+    border-left: 1px solid var(--medium-gray);
+  }
+  
+  .document-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .document-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin-left: 8px;
+    transition: var(--transition);
+  }
+  
+  .document-action.view {
+    color: var(--primary-color);
+    background-color: rgba(74, 108, 247, 0.1);
+  }
+  
+  .document-action.view:hover {
+    background-color: rgba(74, 108, 247, 0.2);
+  }
+  
+  .document-action.delete {
+    color: var(--danger);
+    background-color: rgba(220, 53, 69, 0.1);
+  }
+  
+  .document-action.delete:hover {
+    background-color: rgba(220, 53, 69, 0.2);
+  }
+  

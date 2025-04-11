@@ -1,0 +1,91 @@
+/* File: src/pages/SearchPage.css */
+.search-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 24px;
+  }
+  
+  .search-header {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  
+  .search-header h1 {
+    font-size: 2rem;
+    margin-bottom: 8px;
+  }
+  
+  .search-header p {
+    color: var(--secondary-color);
+  }
+  
+  .search-form {
+    margin-bottom: 32px;
+  }
+  
+  .search-bar {
+    position: relative;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .search-bar .search-input {
+    width: 100%;
+    padding: 14px 60px 14px 16px;
+    border: 1px solid var(--medium-gray);
+    border-radius: var(--border-radius);
+    font-size: 1rem;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+  }
+  
+  .search-bar .search-input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(74, 108, 247, 0.2), var(--shadow);
+  }
+  
+  .search-button {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: var(--border-radius);
+    font-size: 1.125rem;
+    transition: var(--transition);
+  }
+  
+  .search-button:hover {
+    background-color: var(--primary-hover);
+  }
+  
+  .search-results h2 {
+    margin-bottom: 16px;
+    font-size: 1.5rem;
+  }
+  
+  .loading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 64px 0;
+  }
+  
+  .loading-container .spinner {
+    margin-bottom: 16px;
+    color: var(--primary-color);
+  }
+  
+  .no-results, .search-placeholder {
+    text-align: center;
+    padding: 64px 0;
+    color: var(--secondary-color);
+  }
+  

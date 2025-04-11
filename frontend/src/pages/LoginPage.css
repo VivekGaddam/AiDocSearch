@@ -1,0 +1,107 @@
+/* File: src/pages/LoginPage.css */
+.login-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f5f7fb;
+    padding: 24px;
+  }
+  
+  .login-container {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .login-header {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  
+  .app-logo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 8px;
+  }
+  
+  .app-description {
+    color: var(--secondary-color);
+  }
+  
+  .login-form {
+    background-color: white;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    padding: 32px;
+  }
+  
+  .login-form h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  
+  .error-message {
+    padding: 10px;
+    margin-bottom: 16px;
+    background-color: rgba(220, 53, 69, 0.1);
+    color: var(--danger);
+    border-radius: var(--border-radius);
+    text-align: center;
+  }
+  
+  .input-icon-wrapper {
+    position: relative;
+  }
+  
+  .input-icon {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    color: var(--secondary-color);
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 12px 12px 12px 40px;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--medium-gray);
+    margin-bottom: 16px;
+    transition: var(--transition);
+  }
+  
+  .login-form input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(74, 108, 247, 0.2);
+  }
+  
+  .login-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 12px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: var(--border-radius);
+    font-weight: 500;
+    transition: var(--transition);
+    margin-top: 8px;
+  }
+  
+  .login-button:hover {
+    background-color: var(--primary-hover);
+  }
+  
+  .login-button svg {
+    margin-right: 8px;
+  }
+  
+  .login-footer {
+    margin-top: 24px;
+    text-align: center;
+    color: var(--secondary-color);
+  }
