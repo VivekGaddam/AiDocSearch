@@ -1,0 +1,15 @@
+fastapi==0.95.2
+langchain==0.0.175
+transformers==4.29.2
+sentence-transformers==2.2.2
+InstructorEmbedding==1.0.1
+huggingface_hub==0.14.1
+python-dotenv
+python-multipart
+pymilvus==2.2.8
+milvus==2.2.8
+uvicorn[standard]==0.22.0
+xformers
+accelerate
+ninja
+pdfminer.six
